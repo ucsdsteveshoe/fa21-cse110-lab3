@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> CSE 110 - Mario Movie Project </title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Steven Shoemaker">
+        <link rel="icon" type="image/png" href="data/mari0.png" />
+    </head>
+    <body>
+        <header id="top">
+            <h1> CSE 110 Mario Movie Project Minutes</h1>
+            <h2> Meeting 2 </h2>
+            <h2> Meeting Topic: Voice actors </h2>
+            <h2> October 1, 2021 </h2>
+            <nav>
+                <a href="#section1"> Attendance and Agenda </a> |
+                <a href="#section2"> Review </a> |
+                <a href="#section3"> Discussion of Cast</a> |
+                <a href="#section4"> Concerns </a> |
+                <a href="https://m.imdb.com/title/tt7634766/fullcredits/cast"> (off-page) IMDB current cast </a>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h3 id="section1"> Attendance and Agenda </h3>
+                <b> Currently In Attendance </b>
+                <ul>
+                    <li> Chris Pratt </li>
+                    <li> Anya Taylor-Joy </li>
+                    <li> Steven Shoemaker </li>
+                    <li> Danny DeVito </li>
+                </ul>
+                
+                <hr>
+
+                <b> On the Agenda </b>
+                <ol>
+                    <li> (Finishing discussion from previous time) </li>
+                    <li> Review current suggested cast </li>
+                    <li> Suggest changes </li>
+                    <li> Submit proposal to Professor Powell</li>
+                </ol>
+            </section>
+            <section>
+                <h3 id="section2"> Review previous discussion </h3>
+                <p> Our 110 CSE coding group project will be to create a fully animated feature-length movie featuring the <i>Mario Brothers</i>. </p>
+                <p> Previously, we tabled the discussion on who would be responsible for animating given we are all software developers. </p>
+                <div> This meeting, Steven agreed to tackle 90% of the project effort. He stressed that this would not be a free effort and he <strong>must</strong> be paid in snacks</div>
+                <p> After a long pause, Chris agreed to be the main supplier of goldfish crackers. Delivery process would be direct-to-mouth (see diagram below) </p>
+                <br>
+                <img src="data/whiteboard.jpg" alt="Chris Pratt feeding me Goldfish Crackers" width=300 height=400>
+
+            </section>
+            <section>
+                <h3 id="section3"> Review Currently Suggested Cast</h3>
+                <p> At the moment, our plan is to rip off the sound bytes of <span>currently involved</span> actors (see video below)</p>
+                <video src="data/meeting.mp4" width=300 height=168 controls></video>
+                <p> It was discussed that if the movie launches after our project is due for completion, we <em>could</em> just have our movie feature audio clips of Chris Pratt from other cinematography</p>
+                <p> We decided to table this possibility for next meeting and go get food </p>
+                <p> Audio recording of the meeting below </p>
+                <audio src="data/meeting.mp3" controls></audio>
+            </section>
+            <section>
+                <h3 id="section4"> Concerns </h3>
+                <p> Steven voiced his conern that we <em>might</em> not be able to legally rip sound from an entire movie. This concern was met with silence.</p>
+            </section>
+        </main>
+        <br>
+        <details>
+            <summary> Anonymous Actor Request Form </summary>
+            <div>
+                <form>
+                    <p>
+                        Actor Name: <input type="text">
+                    </p>
+                    <p>
+                        Which character would you have this actor play:
+                        <input list="chars">
+                        <datalist id="chars">
+                            <option value="Mario">
+                            <option value="Luigi">
+                            <option value="Peach">
+                            <option value="(if other, please type into this box)">
+                        </datalist>
+                    </p>
+                    <p>
+                        What series is the character from:
+                        <select>
+                            <option value="NULL"> -- Please select one of the following --</option>
+                            <option value="mario"> Mario </option>
+                            <option value="dk"> Donkey Kong </option>
+                            <option value="zelda"> The Legend of Zelda </option>
+                            <option value="none"> Other </option>
+                        </select>
+                    </p>
+                    <p>
+                        <fieldset>
+                            <legend> Would we capture motion data from the actor as well?</legend>
+                            <input type="radio" name="motion_cap" checked> Yes <br>
+                            <input type="radio" name="motion_cap"> No
+                        </fieldset>
+                    </p>
+                    <p>
+                        First appearance of this actor/actress in film:
+                        <input type="date">
+                    </p>
+                    <p>
+                        Has Professor Powell pre-approved this selection already:
+                        <input type="checkbox"> (check if true)
+                    </p>
+                    <p>
+                        Explain why you think this actor would be a good choice:
+                    </p>
+                    <p>
+                        <textarea> e.g. they were good in x movie... </textarea>
+                    </p>
+                    <p>
+                        <button> Submit suggestion</button>
+                    </p>
+                    <p>
+                        Note: If Javascript is disabled, submission may not work...
+                    </p>
+                </form>
+            </div>
+        </details>
+        <br>
+        <footer>
+            <p>Copywright © 2021 University of California, San Diego (not really)</p>
+            <a href="#top"> Back to top... </a>
+        </footer>
+    </body>
+</html>
