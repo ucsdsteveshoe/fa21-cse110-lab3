@@ -11,7 +11,7 @@
 - Point 2
 - Point 3...
 
-[] Help with issues?
+- [ ] Help with issues?
 
 ### Person 2
 
@@ -21,7 +21,7 @@
 - Point 2
 - Point 3...
 
-[x] Help with issues?
+- [x] Help with issues?
 
 ### Person 3...
 
