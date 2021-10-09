@@ -10,6 +10,8 @@ html {
 h1 {
     font-family: "Akronim", serif;
     text-align: center;
+    position: sticky;
+    top: 5px;
 }
 
 b, strong {
@@ -79,9 +81,41 @@ form *:active {
     background-color: hotpink;
 }
 
-#fixedPos {
-    position: fixed;
-    background-color:yellowgreen;
-    width: 200px;
-    height: 100px;
+section.bumped {
+    position: relative;
+    left: 10px;
+}
+
+#charList {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 25px;
+    background-color: wheat;
+}
+
+a[href*="#"] {
+    color: darkslategrey;
+}
+
+#lowerGrid {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas:
+        "fourty fourty . . ."
+        ". . sixty sixty sixty";
+}
+
+#lowerGrid > span {
+    background-color:deeppink;
+    border-radius: 10px;
+    grid-area: fourty;
+}
+
+#lowerGrid > div {
+    background-color:gainsboro;
+    border-radius: 10px;
+    grid-area: sixty;
 }
