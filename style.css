@@ -1,0 +1,87 @@
+/* Steven's incredible A+ worthy stylesheet */
+
+@import url('https://fonts.googleapis.com/css2?family=Akronim&display=swap');
+
+html {
+    background-color: #fdf7d6;
+    font-family: serif;
+}
+
+h1 {
+    font-family: "Akronim", serif;
+    text-align: center;
+}
+
+b, strong {
+    text-decoration: underline;
+}
+
+@media (min-resolution: 72dpi) {
+    b, strong {
+        color: indigo;
+    }
+}
+
+@media (max-resolution: 73dpi) {
+    b, strong {
+        color: aqua;
+    }
+}
+
+section:hover ~ section {
+    color:lightgray;
+}
+
+section:hover + section {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    font-family: arial;
+}
+
+.newlineDiv {
+    display: inline;
+}
+
+img {
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+    min-width: 200px;
+    max-width: 20em; /* in 16pt, this is 320 px */
+    margin: auto;
+}
+
+#media:hover {
+    margin: 5pt 0px 2pc 5px;
+    border: 2px solid black;
+    padding: 5px 5px 5px 5px;
+    background-color:lightgray;
+    border-radius: 20px;
+}
+
+div > form {
+    padding-top: 0px;
+    padding-bottom: 4px;
+    padding-right: 8px;
+    padding-left: 2ch;
+    margin-top: 4px;
+    margin-bottom: 1ex;
+    margin-left: 1px;
+    margin-right: 1px;
+    border-style: dotted;
+    border-color: hsl(240, 100, 150);
+    border-width: 2px;
+}
+
+form *:active {
+    background-color: hotpink;
+}
+
+#fixedPos {
+    position: fixed;
+    background-color:yellowgreen;
+    width: 200px;
+    height: 100px;
+}

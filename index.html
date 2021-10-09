@@ -5,6 +5,7 @@
         <meta charset="UTF-8">
         <meta name="author" content="Steven Shoemaker">
         <link rel="icon" type="image/png" href="data/mari0.png" />
+        <link rel="stylesheet" href="style.css" />
     </head>
     <body>
         <header id="top">
@@ -51,7 +52,11 @@
                 <img src="data/whiteboard.jpg" alt="Chris Pratt feeding me Goldfish Crackers" width=300 height=400>
 
             </section>
-            <section>
+            <section class="flowless">
+                This class should not exist :o
+                Please hover over to remove it from the document flow
+            </section>
+            <section id="media">
                 <h3 id="section3"> Review Currently Suggested Cast</h3>
                 <p> At the moment, our plan is to rip off the sound bytes of <span>currently involved</span> actors (see video below)</p>
                 <video src="data/meeting.mp4" width=300 height=168 controls></video>
@@ -62,7 +67,7 @@
             </section>
             <section>
                 <h3 id="section4"> Concerns </h3>
-                <p> Steven voiced his conern that we <em>might</em> not be able to legally rip sound from an entire movie. This concern was met with silence.</p>
+                <p> Steven voiced his conern that we <em>might</em> not be able to legally rip sound from an entire movie. <div class="newlineDiv"> This concern was met with silence. </div></p>
             </section>
         </main>
         <br>
@@ -124,6 +129,9 @@
             </div>
         </details>
         <br>
+        <div id="fixedPos">
+            This box follows you around ;^)
+        </div>
         <footer>
             <p>Copywright © 2021 University of California, San Diego (not really)</p>
             <a href="#top"> Back to Top... </a>
